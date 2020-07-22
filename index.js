@@ -1,7 +1,9 @@
-sap.ui.define([], function () {
+sap.ui.define(["sap/m/Text"], function (Text) {
 
 		"use strict";
-		alert("I am loaded");
+		new Text({
+			text: 'Purchase Order Report'
+		}).placeAt('content');
 	}
 
 );
